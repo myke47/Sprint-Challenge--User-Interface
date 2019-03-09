@@ -180,6 +180,136 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box-a {
+    background-color: teal;
+}
+
+.middle-content .boxes .box-b {
+    background-color: gold;
+}
+
+.middle-content .boxes .box-c {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-d {
+    background-color: coral;
+}
+
+.middle-content .boxes .box-e {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-f {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-g {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-h {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-i {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-j {
+    background-color: dodgerblue;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+.middle-content-about   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.middle-content-about .boxes    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%
+}
+
+.middle-content-about .boxes box  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.middle-content-about .boxes .middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px 0 20px 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.box-s  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.box-w  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.box-o  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.box-m  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+button.learn  {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 20px 0 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    font-size: medium;
+    border: solid 2px;
+}
+
 .bottom-content-about   {
     display: flex;
     flex-direction: column;

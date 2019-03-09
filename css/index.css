@@ -66,9 +66,20 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 800px;
     margin: 0 auto;
+}
+
+.nav    {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .top-content {

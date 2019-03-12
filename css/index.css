@@ -66,9 +66,47 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container-about-page  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 800px;
     margin: 0 auto;
+}
+
+.nav, .about-nav    {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.nav a, .about-nav a  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.nav img {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.header-img {
+    display: flex;
+    width: 100%;
+    margin-bottom: inherit;
 }
 
 .top-content {
@@ -85,7 +123,35 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0 20px 20px;
+}
+
+.top-content-about .text-container-about h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-content-about .text-container-about p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .middle-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -97,19 +163,62 @@ p {
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-a, .box-b, .box-c, .box-d, .box-e, .box-f, .box-g, .box-h, .box-i, .box-j  {
+    display: flex;
+    flex-direction: row;
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-a {
+    background-color: teal;
+}
+
+.middle-content .boxes .box-b {
+    background-color: gold;
+}
+
+.middle-content .boxes .box-c {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-d {
+    background-color: coral;
+}
+
+.middle-content .boxes .box-e {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-f {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-g {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-h {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-i {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-j {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +233,88 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.middle-content-about   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.middle-content-about .boxes    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%
+}
+
+.middle-content-about .boxes box  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.middle-content-about .boxes .middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px 0 20px 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.box-s  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.box-w  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.box-o  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.box-m  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+button.learn  {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 20px 0 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    font-size: medium;
+    border: solid 2px;
+}
+
+.bottom-content-about   {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0 35px 15px;
 }
 
 footer {
